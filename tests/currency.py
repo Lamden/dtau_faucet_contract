@@ -2,7 +2,7 @@ balances = Hash(default_value=0)
 
 @construct
 def seed():
-    balances['con_faucet'] = 300
+    balances['con_faucet'] = 400
 
 @export
 def transfer(amount: float, to: str):
